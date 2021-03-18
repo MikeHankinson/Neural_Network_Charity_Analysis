@@ -2,7 +2,7 @@
 ----------------------------------------------------------------------------------
 
 ## Overview of the Statistical Analysis 
-Implement a neural network, using the TensorFlow platform in Python, to model (train and test) a dataset containing 34,000 organizations that have previously recieved funding. The model output is a binary classifier capable of predicting successful donation outcomes.  
+Implement a neural network, using the TensorFlow platform in Python, to model (train and test) a dataset containing 34,000 organizations that have previously received funding. The model output is a binary classifier capable of predicting successful donation outcomes.  
 
 ## Data Sources and Coding Files
 Data for analysis was provided within the attached ([CSV file). ](/Resources/charity_data.csv)
@@ -20,7 +20,7 @@ The data contained the following features:
 - SPECIAL_CONSIDERATIONS—Special consideration for application
 - ASK_AMT—Funding amount requested
 
-The folloiwng was the target variable:
+The following was the target variable:
 - IS_SUCCESSFUL—Was the money used effectively
 
 The following two columns were removed from the model because they were simply identifications for the features.  
@@ -34,7 +34,7 @@ The following two columns were removed from the model because they were simply i
 5. Fit and transform OneHotEncoder
 6. Add the encoded variables to a dataframe
 7. Merge OneHotEncoder features and drop originals
-8. Split the preprocessed data nto features and target
+8. Split the preprocessed data into features and target
 9. Split the preprocessed data into training and testing data
 10. Create a StandardScaler
 11. Fit the StandardScaler
@@ -47,5 +47,5 @@ The following two columns were removed from the model because they were simply i
 
 ![Fig_1](Model_Results.PNG)
 
-The abovew table shows the results of 8 different models.  
+The above table provides the results of 8 different models.  Note the Random Forest Classifier performed nearly equal to the best neural network models. 
 
