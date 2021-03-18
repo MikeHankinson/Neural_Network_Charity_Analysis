@@ -2,14 +2,33 @@
 ----------------------------------------------------------------------------------
 
 ## Overview of the Statistical Analysis 
-Perform retrospective analysis on historical data, analytical verification of current automotive specifications and study design of future auto testing.  
+Implement a neural network, using the TensorFlow platform in Python, to model (train and test) a dataset containing 34,000 organizations that have previously recieved funding. The model output is a binary classifier capable of predicting successful donation outcomes.  
 
-## Data Sources and Coding File
-Data for analysis was provided in two csv files ([MPG](MechaCar_mpg.csv) and [Suspension](Suspension_Coil.csv)).  
+## Data Sources and Coding Files
+Data for analysis was provided within the attached ([CSV file. ](/Resources/charity_data.csv)
 
-Statistical analysis was performed in R and is [attached](MechaCarChallenge.R).  
+Statistical analysis was performed in Python and is attached:  [AlphabetSoupCharity](AlphabetSoupCharity.ipynb), and [AlphabetSoupCharity_Optimization](AlphabetSoupCharity_Optimization.ipynb).
 
-## Linear Regression to Predict MPG
+The data contained the following features:
+- APPLICATION_TYPE—Alphabet Soup application type
+- AFFILIATION—Affiliated sector of industry
+- CLASSIFICATION—Government organization classification
+- USE_CASE—Use case for funding
+- ORGANIZATION—Organization type
+- STATUS—Active status
+- INCOME_AMT—Income classification
+- SPECIAL_CONSIDERATIONS—Special consideration for application
+- ASK_AMT—Funding amount requested
+
+The folloiwng was the target variable:
+-IS_SUCCESSFUL—Was the money used effectively
+
+The following two columns were removed from the model because they were simply identifications for the features.  
+- EIN and NAME—Identification columns
+
+
+
+## Results
 
 ![Fig_1](MechaCar_Statistical_Analysis/Screenshots/Linear_Regression_MPG.PNG)
 
